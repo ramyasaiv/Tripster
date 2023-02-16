@@ -3,18 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Tour And Travel Agency</title>
-    <link rel="icon" type="image" href="apple-touch-icon.png">
+    <title>complete responsive tour and travel agency website design tutorial</title>
+
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 
     <!-- font awesome cdn link  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <!-- custom css file link  -->
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/style.css">
 
 </head>
 <body>
+    
+<div class="look"> 
+<!-- header section starts  -->
+
+<header>
+
+    <div id="menu-bar" class="fas fa-bars"></div>
+
+    <a href="#" class="logo"><span>T</span>R<span>I</span>P<span>S</span>T<span>E</span>R</a>
+
+   <nav class="navbar">
+            <a href="index.html">home</a>
+            <a href="index.html">book</a>
+            <a href="index.html">packages</a>
+            <a href="index.html">services</a>
+            <a href="index.html">gallery</a>
+            <a href="index.html">review</a>
+            <a href="index.html">contact</a>
+        </nav>
+
+    <div class="icons">
+        <i class="fas fa-search" id="search-btn"></i>
+    </div>
+
+    <form action="#book" class="search-bar-container" method="get">
+        <input type="search" id="search-bar" placeholder="search here...">
+        <label for="search-bar" class="fas fa-search"></label>
+    </form>
+
+</header>
+
+<!-- header section ends -->
+<br>
+<br>
+<br>
+<!-- book section starts  -->
+
 <section class="book" id="book">
 
     <h1 class="heading">
@@ -31,68 +68,86 @@
     <div class="row">
 
         <div class="image">
-            <img src="C:\Web_Development\Travel-And-Tour\himg.jpg" alt="">
+            <img src="images/book-img.svg" alt="">
         </div>
-       
-        <form action="https://sheetdb.io/api/v1/1cl9ffic5nd1j" method="post" id="sheet1">
-            <div class="inputBox">
-                <h3>Name</h3>
-                <input placeholder="enter name" name="data[Name]">
-                </div>
-                <div class="inputBox">
-                    <h3>mobile number</h3>
-                    <input placeholder="enter mobile" name="data[Mobile number]">
-                    </div>
-                    <div class="inputBox">
-                        <h3>Mail id</h3>
-                        <input placeholder="enter mail" name="data[Mail id]">
-                        </div>
-            <div class="inputBox">
-                <h3>Packages</h3>
-                <select name="data[Packages]" id="Packages">
-                    <option value="Abhu Dabhi">Abhu Dabhi</option>
-                     <option value="Hawaii">Hawaii</option>
-                     <option value="Sydney">Sydney</option>
-                     <option value="Paris">Paris</option>
-                     <option value="Tokyo">Tokyo</option>
-                     <option value="Russia">Russia</option>
-                     </select>
-            </div>
-            <div class="inputBox">
-                <h3>how many</h3>
-                <label>guests</label>
-                <input  placeholder="number of guests" name="data[Guest]">
-            </div>
-            <div class="inputBox">
-                <h3>arrivals</h3>
-                <label>date</label>
-                <input type="date" name="data[Arrival]">
-            </div>
-            <div class="inputBox">
-                <h3>leaving</h3>
-                <label>date</label>
-                <input type="date" name="data[Leaving]">
-            </div>
-            <input type="submit" class="btn" value="book now">
+
+       <form
+        action="https://sheetdb.io/api/v1/jwujat046hxol"
+        method="POST" id="sheet1">
+        
+        <div class="inputBox">
+          <h3>Customer Name</h3>
+          <input type="text" name="data[Customer Name]" placeholder="Name">
+          <h3>Gmail Id</h3>
+          <input type="text" name="data[Mail Id]" placeholder="Mail id">
+          <h3>Mobile No</h3>
+          <input type="Number" name="data[Mobile No]" placeholder="Mobile No">
+            <h3>Place</h3>
+            <input type="text" name="data[Place]" placeholder="place name">
+            <h3>Price</h3>
+            <input type="currency
+            " name="data[Price]" placeholder="Price">
+
+        </div>
+        <div class="inputBox">
+            <h3>how many days</h3>
+            <input type="number" name="data[How Many days]" placeholder="How many days">
+          <h3>Arrivals</h3>
+          <label>date</label>
+          <input name="data[Arrival]" name="date">
+          <h3>Checkout</h3>
+          <label>date</label>
+          <input name="data[Checkout]" name="date">
+        </div>
+
+            <button type="submit" class="btn">Book Now</button>
         </form>
 
     </div>
 
 </section>
+
+<!-- book section ends -->
+      <!-- footer section  -->
+
+      <section class="footer">
+
+        <div class="box-container">
+    
+            <div class="box">
+                <h3>about us</h3>
+                <p>the activity of going from one place to another, especially over a long distance:</p>
+            </div>
+            <div class="box">
+                <h3>branch locations</h3>
+                <a href="#">india</a>
+                <a href="#">USA</a>
+                <a href="#">japan</a>
+                <a href="#">france</a>
+            </div>
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#">home</a>
+                <a href="#">book</a>
+                <a href="#">packages</a>
+                <a href="#">services</a>
+                <a href="#">gallery</a>
+                <a href="#">review</a>
+                <a href="#">contact</a>
+            </div>
+            <div class="box">
+                <h3>follow us</h3>
+                <a href="https://www.facebook.com/profile.php?id=100086929164848">facebook</a>
+                <a href="https://www.instagram.com/calc.technologies/">instagram</a>
+                <a href="https://twitter.com/calctechsocial">twitter</a>
+                <a href="https://www.linkedin.com/in/calc-technologies-b2649b1a7">linkedin</a>
+            </div>
+     
+    
+        </div>
+    
+        <h1 class="credit"> created by  NabiRasool & Ramya V | all rights reserved! </h1>
+    
+    </section>
 </body>
-<script>
-    var form = document.getElementById("sheet1");
-    form.addEventListener("submit", e => {
-      e.preventDefault();
-      fetch(form.action, {
-          method : "POST",
-          body: new FormData(document.getElementById("sheet1")),
-      }).then(
-          response => response.json()
-      ).then((html) => {
-        // you can put any JS code here
-        alert('success')
-      });
-    });
-  </script>
 </html>
