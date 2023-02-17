@@ -705,7 +705,11 @@ header .search-bar-container label:hover{
   height:50%;
   width: 100%;
 }
-
+html, body {
+  // Smooth scroll always for html tag
+  scroll-behavior: smooth;
+  // scroll-snap-type: y; // <-- snap in y axis
+}
 /* media queries  */
 
 @media (max-width:800px){
@@ -772,7 +776,10 @@ header .search-bar-container label:hover{
   .contact .row form .inputBox input{
     width:100%;
   }
-  
+  html,body{
+    overflow-x: hidden;
+}
+ 
   
 }
 .login{
